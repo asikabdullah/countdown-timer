@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;500;600&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./mountain.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Lobster', Open Sans;
+
+    margin: 0;
+}
+
+h1 {
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    font-weight: regular;
+    color: rgb(19, 23, 242);
+    font-size: 4rem;
+    margin-top: -10rem; 
+    margin-top: -25rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
+
+
